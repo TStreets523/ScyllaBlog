@@ -1,0 +1,262 @@
+
+
+.inner-body {
+    align-items: center;
+    background-color: #F3F5F7;
+    width: 100%;
+    min-height: 100vh;
+    color: #1B1C34;
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0F1616;
+    width: 100%; 
+    padding: 2%;
+    text-align: center;
+ 
+}
+
+h6{
+    color: white;
+}
+
+.footer-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+  
+.topnav {
+    overflow: hidden;
+    background-color: #0F1616;
+    top: 0;
+    width: 100%; 
+    margin-bottom:
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all .3s ease-in-out;
+
+}
+  
+.topnav a:hover {
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.15);
+    background: #404040;
+}
+  
+.topnav a.active {
+    background-color: gray;
+    color: white;
+}
+  
+.topnav .icon {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    margin: 5% 0;
+}
+
+.card {
+    overflow: hidden;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+}
+.featured-card {
+    overflow: hidden;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 30px;
+    text-align: left;
+}
+.featured-banner {
+    line-height: 90%;
+}
+
+
+.card_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.featured-card-img img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card_body {
+    padding: 26px 20px 36px 20px;
+}
+
+.card_title {
+   
+    font-weight: 900;
+    text-transform: capitalize;
+
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.card_body p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+
+a.read_more {
+    color: #FFF;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    background: #0F1616;
+    margin-top: 50px;
+    padding: 24px 0px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 70%;
+    transition: all .3s ease-in-out;
+}
+
+a.read_more:hover {
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.15);
+    background: #404040;
+}
+
+.link {
+    position: fixed;
+    background-color: #D12322;
+    padding: 23px 40px;
+    right: -106px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+ 
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .fa {
+    padding: 3px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    margin-left: 5px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .newsletter-button{
+    border-radius:15px;
+    font-size: 25px;
+    margin:10%;
+    transition: all .3s ease-in-out;
+  }
+
+  .newsletter-button:hover{
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.15);
+    background: gray;
+    color: white;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+    color: white;
+  }
+ @media screen and (max-width: 1450px) {
+    .grid {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .inner-body{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+@media screen and (max-width: 720px) {
+    .inner-body{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .a.read_more {
+        margin-top: 0px;
+
+    }
+    .card_body{
+      padding-bottom: 140px;  
+    }
+        
+ }
+
+    
+
+
+
+
+

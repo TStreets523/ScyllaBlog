@@ -1,0 +1,41 @@
+1. Did you find any of the instructions unclear, tricky, or incomplete?
+RESPONSE: No, all the instructions were very clear.
+
+2. What could have improved your assessment of the tasks asked of you?
+RESPONSE: I feel the overall design/layout of the pages could have been better, so I would 
+          say better understanding of design principles could have improved the assessment.
+
+3. How much time did you commit to taking this test?
+RESPONSE: about 9 hours.
+
+4. Please explain your approach and process for each solution.
+RESPONSE: I broke down all the tasks into these categories:
+
+          Design and Layout: I searched the web for a couple of examples and based my style off that. Once I found something 
+            that I thought looked good, I would being trying to implement that into the webpage. While some of the examples I found provided some code,
+            changes always had to made to make it work within the project. So in essence, I used examples on the web for a foundation, began 
+            building off of that. While implementing, I ran into many problems with the styling, so I would use the chrome tools to figure out the issues I was seeing with
+            certain elements.
+
+          Pagination: My approach to pagination was to figure out how I can make the feature dynamic as possible. I tried to represent the blogs as records being pulled from
+            a DB and using the total number of items along with the desired items per page generate and build HTML with string objects. Which was ultimately accomplished.
+
+          Responsiveness: For the responsiveness, my approach was to figure out when and what elements needed adjusting with the chrome tools. Then from there I had to 
+            learn how to implement responsiveness as I've never done it before. Previously, I mainly worked with Bootstrap classes what would handle the responsiveness
+            for me. I quicky discovered media queries began to implement them. From there, as the queries would activate, I would discover even more styling issues I 
+            had fix. The chrome tools were a big help here as well.
+
+5. Which of your talents, skills, or languages best helped you during the test?
+RESPONSE: My understanding of JavaScript, helped me out on the best on the test when implementing the pagination. I was able to quickly implement the feature, knowing what 
+          methods and features of JavaScript I could use beforehand to best serve the feature.
+
+6. What talents, skills, or languages would have been helpful?
+RESPONSE: I would've liked a better understanding of CSS and responsiveness. While I have worked with CSS before, it was never to the degree I did for this test.
+
+7. If you had time, what changes would you make to your solution(s)?
+RESPONSE: The biggest thing that I would work on is a feature that lets the user write a blog. Another feature I would have like to add is options configuring various 
+          things on the webpage, like blogs per page or changing the feature blog. A couple minor things that I would like to be done is seeing 
+          if I could improve the picture quality, adding more content to the footer, and building a better-looking navigation bar.
+
+SIDENOTE: This was a very fun project; it didn't really feel like a test. I found it enjoyable to go back and brush up on some of my skills I learned 
+          at my internship, just wish my CSS was a lot sharper. So, thanks this me giving a test.
